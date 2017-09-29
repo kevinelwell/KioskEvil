@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Kiosk Evil</h1>
+
+<script>
+          bb = new MSBlobBuilder();
+          bb.append("test data 2");
+          window.navigator.msSaveOrOpenBlob(bb.getBlob(),"testing2.txt");
+</script>
+</body>
+</html>
